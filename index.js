@@ -16,7 +16,7 @@ module.exports = function (content) {
     return (
         "const fs = require('fs');" +
         "const path = require('path');" +
-        "const filePath = path.resolve(__dirname, " + filePath + ");" +
+        "const filePath = path.resolve(__dirname, " + JSON.stringify(filePath) + ");" +
         "try { module.exports = fs.readFileSync(filePath, { encoding: " + JSON.stringify(options.encoding || null) + " }); } " +
         "catch(error) { throw new Error('cannot read ' + filePath + ': ' + error); };"
     );
