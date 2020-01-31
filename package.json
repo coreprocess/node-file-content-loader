@@ -1,0 +1,22 @@
+{
+  "name": "file-content-loader",
+  "version": "1.0.0",
+  "description": "Node.js file content loader for Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/core-process/node-file-content-loader.git"
+  },
+  "author": "Niklas Salmoukas <niklas@salmoukas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/core-process/node-file-content-loader/issues"
+  },
+  "homepage": "https://github.com/core-process/node-file-content-loader#readme",
+  "dependencies": {
+    "loader-utils": "^1.2.3"
+  }
+}
