@@ -1,5 +1,5 @@
 {
-  "name": "file-content-loader",
+  "name": "node-file-content-loader",
   "version": "1.0.0",
   "description": "Node.js file content loader for Webpack",
   "main": "index.js",
