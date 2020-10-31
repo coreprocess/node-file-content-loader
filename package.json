@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/core-process/node-file-content-loader.git"
+    "url": "git+https://github.com/coreprocess/node-file-content-loader.git"
   },
   "author": "Niklas Salmoukas <niklas@salmoukas.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/core-process/node-file-content-loader/issues"
+    "url": "https://github.com/coreprocess/node-file-content-loader/issues"
   },
-  "homepage": "https://github.com/core-process/node-file-content-loader#readme",
+  "homepage": "https://github.com/coreprocess/node-file-content-loader#readme",
   "dependencies": {
     "loader-utils": "^1.2.3"
   }
